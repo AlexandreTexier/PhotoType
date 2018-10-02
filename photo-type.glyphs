@@ -1,5 +1,9 @@
 {
 .appVersion = "1056";
+DisplayStrings = (
+k,
+/a.ss02
+);
 customParameters = (
 {
 name = Axes;
@@ -91,9 +95,10 @@ position = "{-100, 0}";
 id = "6F4F10D2-8254-4335-A627-9F8D8891324D";
 userData = {
 GSCornerRadius = 50;
-GSOffsetHorizontal = 45;
+GSOffsetAutoStroke = 1;
+GSOffsetHorizontal = 10;
 GSOffsetMakeStroke = 1;
-GSOffsetVertical = 45;
+GSOffsetVertical = 10;
 };
 visible = 1;
 xHeight = 500;
@@ -5273,7 +5278,7 @@ width = 600;
 },
 {
 glyphname = a.ss02;
-lastChange = "2018-09-15 15:05:31 +0000";
+lastChange = "2018-10-02 14:25:21 +0000";
 layers = (
 {
 layerId = "6F4F10D2-8254-4335-A627-9F8D8891324D";
@@ -5363,6 +5368,61 @@ nodes = (
 "422 385 OFFCURVE",
 "533 299 OFFCURVE",
 "533 192 CURVE SMOOTH"
+);
+}
+);
+width = 624;
+},
+{
+associatedMasterId = "6F4F10D2-8254-4335-A627-9F8D8891324D";
+layerId = "BA2081B9-5BBF-433A-8BDE-4C1EB6A4A23C";
+name = "Oct 2 18, 16:24";
+paths = (
+{
+closed = 1;
+nodes = (
+"510 500 LINE",
+"500 500 LINE",
+"69 500 LINE",
+"69 480 LINE",
+"500 480 LINE",
+"490 496 LINE",
+"594 0 LINE",
+"614 4 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"551 90 OFFCURVE",
+"456 20 OFFCURVE",
+"313 20 CURVE SMOOTH",
+"173 20 OFFCURVE",
+"58 98 OFFCURVE",
+"58 192 CURVE SMOOTH",
+"58 291 OFFCURVE",
+"171 370 OFFCURVE",
+"313 370 CURVE SMOOTH",
+"447 370 OFFCURVE",
+"551 292 OFFCURVE",
+"551 192 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"571 306 OFFCURVE",
+"461 390 OFFCURVE",
+"313 390 CURVE SMOOTH",
+"164 390 OFFCURVE",
+"38 300 OFFCURVE",
+"38 192 CURVE SMOOTH",
+"38 80 OFFCURVE",
+"155 0 OFFCURVE",
+"313 0 CURVE SMOOTH",
+"459 0 OFFCURVE",
+"571 83 OFFCURVE",
+"571 192 CURVE SMOOTH"
 );
 }
 );
