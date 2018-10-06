@@ -1,5 +1,8 @@
 {
 .appVersion = "1056";
+DisplayStrings = (
+"YES\012KAYAK  "
+);
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
@@ -1710,10 +1713,35 @@ unicode = 0058;
 {
 color = 3;
 glyphname = Y;
-lastChange = "2018-10-06 14:27:44 +0000";
+lastChange = "2018-10-06 14:37:05 +0000";
 layers = (
 {
-layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
+associatedMasterId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
+layerId = "657B65C7-D9B0-4D8F-89FD-CE9F188AEA81";
+name = path;
+paths = (
+{
+closed = 0;
+nodes = (
+"50 500 LINE",
+"500 100 LINE",
+"950 500 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"500 100 LINE",
+"500 0 LINE"
+);
+}
+);
+width = 1000;
+},
+{
+associatedMasterId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
+layerId = "54128420-C37D-45A3-9701-221336B72E94";
+name = "Oct 6 18, 16:37";
 paths = (
 {
 closed = 1;
@@ -1754,23 +1782,41 @@ nodes = (
 width = 1050;
 },
 {
-associatedMasterId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
-layerId = "657B65C7-D9B0-4D8F-89FD-CE9F188AEA81";
-name = path;
+layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
 paths = (
 {
-closed = 0;
+closed = 1;
 nodes = (
-"50 500 LINE",
-"500 250 LINE",
-"950 500 LINE"
-);
-},
-{
-closed = 0;
-nodes = (
-"500 250 LINE",
-"500 0 LINE"
+"524.853 -45 OFFCURVE",
+"545 -24.853 OFFCURVE",
+"545 0 CURVE SMOOTH",
+"545 79.793 LINE",
+"979.732 466.221 LINE SMOOTH",
+"989.093 474.467 OFFCURVE",
+"995 486.544 OFFCURVE",
+"995 500 CURVE SMOOTH",
+"995 524.853 OFFCURVE",
+"974.853 545 OFFCURVE",
+"950 545 CURVE SMOOTH",
+"938.465 545 OFFCURVE",
+"927.945 540.66 OFFCURVE",
+"919.981 533.524 CURVE SMOOTH",
+"500 160.207 LINE",
+"80.019 533.524 LINE SMOOTH",
+"72.055 540.66 OFFCURVE",
+"61.535 545 OFFCURVE",
+"50 545 CURVE SMOOTH",
+"25.147 545 OFFCURVE",
+"5 524.853 OFFCURVE",
+"5 500 CURVE SMOOTH",
+"5 486.544 OFFCURVE",
+"10.907 474.468 OFFCURVE",
+"20.268 466.221 CURVE SMOOTH",
+"455 79.793 LINE",
+"455 0 LINE SMOOTH",
+"455 -24.853 OFFCURVE",
+"475.147 -45 OFFCURVE",
+"500 -45 CURVE SMOOTH"
 );
 }
 );
