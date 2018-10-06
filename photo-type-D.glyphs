@@ -1,22 +1,5 @@
 {
 .appVersion = "1056";
-<<<<<<< HEAD
-=======
-DisplayStrings = (
-<<<<<<< HEAD
-"YIZIDI ",
-R,
-D,
-O
-=======
-R,
-"BURN ",
-O,
-E,
-" Q"
->>>>>>> e5890b40acfa2cbad48bb67b8b9de08532e1e411
-);
->>>>>>> 246fa02a44dc1c230007b1f634185e06764fe910
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
