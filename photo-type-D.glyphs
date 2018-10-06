@@ -1,12 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-R,
-"BURN ",
-O,
-E,
-" Q"
-);
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
