@@ -1,5 +1,6 @@
 {
 .appVersion = "1056";
+<<<<<<< HEAD
 DisplayStrings = (
 "DOWN OF THE QUEUE BURNf Q",
 B,
@@ -7,6 +8,8 @@ A,
 W,
 N
 );
+=======
+>>>>>>> a81cd88fbb7002376f09a57a50373084b0a9a0b2
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
