@@ -1,13 +1,12 @@
 {
 .appVersion = "1056";
 DisplayStrings = (
-<<<<<<< HEAD
+" HEAD",
 minolt/a.alt1,
 /a.alt1,
-k
-=======
-s
->>>>>>> 5f0daaba1c5625e02c21ecfa2feae91b1c7a8267
+k,
+s,
+" fdaabacececfafeaebca"
 );
 date = "2018-10-03 14:49:26 +0000";
 familyName = "New Font";
@@ -1218,7 +1217,7 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2018-10-16 12:35:27 +0000";
+lastChange = "2018-10-18 11:36:06 +0000";
 layers = (
 {
 layerId = "E2083702-67E7-471D-AE09-DB685EF5235E";
@@ -1243,23 +1242,23 @@ nodes = (
 "227 0 CURVE SMOOTH",
 "227 384 LINE",
 "256 406 OFFCURVE",
-"341 455 OFFCURVE",
-"532 455 CURVE SMOOTH",
-"542 455 OFFCURVE",
-"545 453 OFFCURVE",
-"545 450 CURVE SMOOTH",
-"545 0 LINE SMOOTH",
-"545 -25 OFFCURVE",
-"565 -45 OFFCURVE",
-"590 -45 CURVE SMOOTH",
-"615 -45 OFFCURVE",
-"635 -25 OFFCURVE",
-"635 0 CURVE SMOOTH",
-"635 450 LINE SMOOTH",
-"635 505 OFFCURVE",
-"590 545 OFFCURVE",
-"532 545 CURVE SMOOTH",
-"384 545 OFFCURVE",
+"421 455 OFFCURVE",
+"612 455 CURVE SMOOTH",
+"622 455 OFFCURVE",
+"625 453 OFFCURVE",
+"625 450 CURVE SMOOTH",
+"625 0 LINE SMOOTH",
+"625 -25 OFFCURVE",
+"645 -45 OFFCURVE",
+"670 -45 CURVE SMOOTH",
+"695 -45 OFFCURVE",
+"715 -25 OFFCURVE",
+"715 0 CURVE SMOOTH",
+"715 450 LINE SMOOTH",
+"715 505 OFFCURVE",
+"670 545 OFFCURVE",
+"612 545 CURVE SMOOTH",
+"464 545 OFFCURVE",
 "286 516 OFFCURVE",
 "227 487 CURVE",
 "227 500 LINE SMOOTH",
@@ -1269,7 +1268,7 @@ nodes = (
 );
 }
 );
-width = 680;
+width = 760;
 },
 {
 associatedMasterId = "E2083702-67E7-471D-AE09-DB685EF5235E";
@@ -1312,7 +1311,7 @@ unicode = 006E;
 },
 {
 glyphname = o;
-lastChange = "2018-10-18 07:17:24 +0000";
+lastChange = "2018-10-18 11:36:40 +0000";
 layers = (
 {
 layerId = "E2083702-67E7-471D-AE09-DB685EF5235E";
@@ -1352,7 +1351,7 @@ nodes = (
 );
 }
 );
-width = 770;
+width = 829;
 },
 {
 associatedMasterId = "E2083702-67E7-471D-AE09-DB685EF5235E";
@@ -1686,7 +1685,7 @@ unicode = 0072;
 },
 {
 glyphname = s;
-lastChange = "2018-10-18 07:22:57 +0000";
+lastChange = "2018-10-18 11:35:20 +0000";
 layers = (
 {
 guideLines = (
@@ -1729,11 +1728,11 @@ nodes = (
 "128 205 OFFCURVE",
 "231 205 CURVE SMOOTH",
 "439 205 LINE SMOOTH",
-"492 205 OFFCURVE",
-"550 162 OFFCURVE",
+"496 205 OFFCURVE",
+"550 186 OFFCURVE",
 "550 124 CURVE SMOOTH",
-"550 88 OFFCURVE",
-"492 45 OFFCURVE",
+"550 67 OFFCURVE",
+"500 45 OFFCURVE",
 "439 45 CURVE SMOOTH",
 "95 45 LINE SMOOTH",
 "70 45 OFFCURVE",
@@ -1763,11 +1762,11 @@ closed = 0;
 nodes = (
 "20 0 LINE",
 "364 0 LINE SMOOTH",
-"434 0 OFFCURVE",
+"474 0 OFFCURVE",
 "520 56 OFFCURVE",
 "520 124 CURVE SMOOTH",
 "520 194 OFFCURVE",
-"434 250 OFFCURVE",
+"483 250 OFFCURVE",
 "364 250 CURVE",
 "156 250 LINE SMOOTH",
 "86 250 OFFCURVE",
@@ -2507,11 +2506,7 @@ unicode = 0020;
 },
 {
 glyphname = "i,";
-<<<<<<< HEAD
-lastChange = "2018-10-16 14:43:35 +0000";
-=======
 lastChange = "2018-10-18 07:19:10 +0000";
->>>>>>> 5f0daaba1c5625e02c21ecfa2feae91b1c7a8267
 layers = (
 {
 layerId = "E2083702-67E7-471D-AE09-DB685EF5235E";
@@ -2521,11 +2516,7 @@ width = 600;
 },
 {
 glyphname = "j,";
-<<<<<<< HEAD
-lastChange = "2018-10-16 14:43:35 +0000";
-=======
 lastChange = "2018-10-18 07:19:10 +0000";
->>>>>>> 5f0daaba1c5625e02c21ecfa2feae91b1c7a8267
 layers = (
 {
 layerId = "E2083702-67E7-471D-AE09-DB685EF5235E";
