@@ -1,27 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-ABCDEFGHIJKLMNOPQRSTUVWXYZ,
-"\U00C6\U00D0\U00C9\U00CA\U00CB\U00C8/OE \U00DE/W.alt1",
-0123456789,
-/seven.alt1/nine.alt1/seven.alt2/fraction,
-"\U00A2\U00A4$/euro",
-"",
-/fraction,
-":",
-"\U00DE",
-/dieresiscomb,
-/rightArrow,
-/southEastArrow,
-"\U00F7",
-"\U00A4",
-"12$  \U00C9NORME TV   50/euro",
-0,
-"\U00A2",
-H,
-/A.alt1,
-"@"
-);
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
