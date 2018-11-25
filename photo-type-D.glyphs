@@ -1,35 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-/question.alt1,
-/ellipsis,
-/minus,
-E/strokeshortcomb,
-/strokeshortcomb,
-"-",
-/endash,
-/emdash,
-"@",
-"[",
-"]",
-P,
-O,
-"+",
-"\U00A7",
-"&",
-/copyright.alt1,
-",",
-/ringcomb,
-I,
-"!",
-"\U00A1",
-"?",
-"\U00BF",
-v,
-V,
-/radical,
-/ampersand.alt1
-);
 date = "2018-10-04 12:50:48 +0000";
 familyName = "Nouvelle police";
 fontMaster = (
@@ -8876,8 +8846,9 @@ width = 1050;
 unicode = 00B6;
 },
 {
+color = 0;
 glyphname = section;
-lastChange = "2018-11-24 16:26:04 +0000";
+lastChange = "2018-11-25 19:02:58 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
