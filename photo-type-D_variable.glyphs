@@ -17,7 +17,7 @@ Tag = wght;
 );
 date = "2018-10-04 12:50:48 +0000";
 designer = "Alexandre Texier x Mael Sinic";
-familyName = NouvellePolice5;
+familyName = "Phototype-Variable";
 featurePrefixes = (
 {
 automatic = 1;
