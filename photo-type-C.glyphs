@@ -12,7 +12,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "sub A E hyphen one by A_E_hyphen_one.liga;\012sub A T hyphen one by A_T_hyphen_one.liga;\012sub A V hyphen one by A_V_hyphen_one.liga;\012sub A hyphen one by A_hyphen_one.liga;\012";
+code = "sub A E hyphen one by A_E_hyphen_one.liga;\012sub A T hyphen one by A_T_hyphen_one.liga;\012sub A V hyphen one by A_V_hyphen_one.liga;\012sub A hyphen one by A_hyphen_one.liga;\012sub F hyphen one by F_hyphen_one.liga;\012";
 name = liga;
 }
 );
