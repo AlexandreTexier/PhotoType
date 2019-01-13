@@ -1,7 +1,11 @@
 {
 .appVersion = "1056";
 DisplayStrings = (
-/battery
+"/battery  Low battery\012  High drum",
+/passedlabel,
+/bullet,
+/delta,
+/alpha
 );
 date = "2018-10-03 14:49:26 +0000";
 familyName = "New Font";
