@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Graebenbach-ital';
   src: url('fonts/Graebenbach-MediumItalic.eot');
   src: url('fonts/Graebenbach-MediumItalic.woff2') format('woff2'),
@@ -20,13 +20,76 @@
     url('fonts/Graebenbach-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: italic;
+} */
+@font-face {
+  font-family: 'Phototype-D';
+  src: url('fonts/Phototype-DGX.ttf');
 }
-
+:root{
+    --variable-weight: 700;
+}
 /* ======== INIT ======== */
-html {
-
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html{
+  /* cursor: url("img/cursor.ico") 32 32, auto; */
 }
 
-body {
+/* ======== NAVIGATION ======== */
+#menu{
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  bottom: 0;
+  left:0;
+  background-color: lightgrey;
+}
+#title{
+  position: absolute;
+  left: 0;
+  top:0;
+  margin-right: 30px;
+}
+#variable-font-slider{
+  position: absolute;
+  right: 0;
+  bottom:0;
+  background-color: salmon;
+  margin-bottom: 15px;
+}
 
+/* ======== SITE ======== */
+
+/* 01 — Landing */
+#landing{
+  width: 100vw;
+  height: 100vh;
+  background-color: salmon;
+}
+.landing-txt{
+  width: 100vw;
+  text-align: center;
+  font-size: 120pt;
+}
+#type-A-landing{
+
+}
+#type-B-landing{
+
+}
+#type-C-landing{
+
+}
+#type-D-landing{
+  font-family: 'Phototype-D';
+  transition: 100ms;
+  font-weight: var(--variable-weight);
+
+}
+#type-D-landing:hover{
+  font-family: 'Phototype-D';
+  transition: 100ms;
+  /* font-weight: 700; */
 }
