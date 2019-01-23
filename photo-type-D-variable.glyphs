@@ -1837,7 +1837,7 @@ unicode = 0045;
 {
 color = 4;
 glyphname = Eacute;
-lastChange = "2019-01-23 12:55:23 +0000";
+lastChange = "2019-01-23 13:38:47 +0000";
 layers = (
 {
 components = (
@@ -1870,6 +1870,7 @@ name = E;
 },
 {
 name = acutecomb;
+transform = "{1, 0, 0, 1, 0, 60}";
 }
 );
 layerId = "BA964981-AC0A-4481-A535-297F9E9B05B4";
@@ -1881,7 +1882,7 @@ unicode = 00C9;
 {
 color = 4;
 glyphname = Ecircumflex;
-lastChange = "2019-01-23 12:55:23 +0000";
+lastChange = "2019-01-23 13:38:54 +0000";
 layers = (
 {
 components = (
@@ -1914,6 +1915,7 @@ name = E;
 },
 {
 name = circumflexcomb;
+transform = "{1, 0, 0, 1, 0, 60}";
 }
 );
 layerId = "BA964981-AC0A-4481-A535-297F9E9B05B4";
@@ -1925,7 +1927,7 @@ unicode = 00CA;
 {
 color = 4;
 glyphname = Edieresis;
-lastChange = "2019-01-23 12:55:23 +0000";
+lastChange = "2019-01-23 13:38:57 +0000";
 layers = (
 {
 components = (
@@ -1958,6 +1960,7 @@ name = E;
 },
 {
 name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, 60}";
 }
 );
 layerId = "BA964981-AC0A-4481-A535-297F9E9B05B4";
@@ -1969,7 +1972,7 @@ unicode = 00CB;
 {
 color = 4;
 glyphname = Egrave;
-lastChange = "2019-01-23 12:55:23 +0000";
+lastChange = "2019-01-23 13:39:01 +0000";
 layers = (
 {
 components = (
@@ -2002,6 +2005,7 @@ name = E;
 },
 {
 name = gravecomb;
+transform = "{1, 0, 0, 1, 0, 60}";
 }
 );
 layerId = "BA964981-AC0A-4481-A535-297F9E9B05B4";
@@ -2659,7 +2663,7 @@ unicode = 0049;
 {
 color = 4;
 glyphname = Iacute;
-lastChange = "2019-01-23 12:55:33 +0000";
+lastChange = "2019-01-23 13:39:03 +0000";
 layers = (
 {
 components = (
@@ -2704,7 +2708,7 @@ unicode = 00CD;
 {
 color = 4;
 glyphname = Icircumflex;
-lastChange = "2019-01-23 12:55:41 +0000";
+lastChange = "2019-01-23 13:39:03 +0000";
 layers = (
 {
 components = (
@@ -2749,7 +2753,7 @@ unicode = 00CE;
 {
 color = 4;
 glyphname = Idieresis;
-lastChange = "2019-01-23 12:55:46 +0000";
+lastChange = "2019-01-23 13:39:03 +0000";
 layers = (
 {
 components = (
@@ -2794,7 +2798,7 @@ unicode = 00CF;
 {
 color = 4;
 glyphname = Igrave;
-lastChange = "2019-01-23 12:55:49 +0000";
+lastChange = "2019-01-23 13:39:06 +0000";
 layers = (
 {
 components = (
@@ -3609,7 +3613,7 @@ unicode = 004E;
 {
 color = 4;
 glyphname = Ntilde;
-lastChange = "2019-01-23 12:55:53 +0000";
+lastChange = "2019-01-23 13:39:07 +0000";
 layers = (
 {
 components = (
@@ -3790,7 +3794,7 @@ unicode = 004F;
 {
 color = 4;
 glyphname = Oacute;
-lastChange = "2019-01-23 12:56:01 +0000";
+lastChange = "2019-01-23 13:39:07 +0000";
 layers = (
 {
 components = (
@@ -3835,7 +3839,7 @@ unicode = 00D3;
 {
 color = 4;
 glyphname = Ocircumflex;
-lastChange = "2019-01-23 12:56:04 +0000";
+lastChange = "2019-01-23 13:39:08 +0000";
 layers = (
 {
 components = (
@@ -3880,7 +3884,7 @@ unicode = 00D4;
 {
 color = 4;
 glyphname = Odieresis;
-lastChange = "2019-01-23 12:56:07 +0000";
+lastChange = "2019-01-23 13:39:08 +0000";
 layers = (
 {
 components = (
@@ -3925,7 +3929,7 @@ unicode = 00D6;
 {
 color = 4;
 glyphname = Ograve;
-lastChange = "2019-01-23 12:56:10 +0000";
+lastChange = "2019-01-23 13:39:08 +0000";
 layers = (
 {
 components = (
@@ -4180,7 +4184,7 @@ unicode = 00D8;
 {
 color = 4;
 glyphname = Otilde;
-lastChange = "2019-01-23 12:56:12 +0000";
+lastChange = "2019-01-23 13:39:08 +0000";
 layers = (
 {
 components = (
@@ -5577,7 +5581,7 @@ unicode = 0055;
 {
 color = 4;
 glyphname = Uacute;
-lastChange = "2019-01-23 12:56:18 +0000";
+lastChange = "2019-01-23 13:39:10 +0000";
 layers = (
 {
 components = (
@@ -5622,7 +5626,7 @@ unicode = 00DA;
 {
 color = 4;
 glyphname = Ucircumflex;
-lastChange = "2019-01-23 12:56:21 +0000";
+lastChange = "2019-01-23 13:39:10 +0000";
 layers = (
 {
 components = (
@@ -5667,7 +5671,7 @@ unicode = 00DB;
 {
 color = 4;
 glyphname = Udieresis;
-lastChange = "2019-01-23 12:56:24 +0000";
+lastChange = "2019-01-23 13:39:10 +0000";
 layers = (
 {
 components = (
@@ -5712,7 +5716,7 @@ unicode = 00DC;
 {
 color = 4;
 glyphname = Ugrave;
-lastChange = "2019-01-23 12:56:28 +0000";
+lastChange = "2019-01-23 13:39:10 +0000";
 layers = (
 {
 components = (
@@ -6091,7 +6095,7 @@ unicode = 0057;
 {
 color = 4;
 glyphname = Wacute;
-lastChange = "2019-01-23 12:56:33 +0000";
+lastChange = "2019-01-23 13:39:11 +0000";
 layers = (
 {
 components = (
@@ -6136,7 +6140,7 @@ unicode = 1E82;
 {
 color = 4;
 glyphname = Wcircumflex;
-lastChange = "2019-01-23 12:56:36 +0000";
+lastChange = "2019-01-23 13:39:11 +0000";
 layers = (
 {
 components = (
@@ -6181,7 +6185,7 @@ unicode = 0174;
 {
 color = 4;
 glyphname = Wdieresis;
-lastChange = "2019-01-23 12:56:44 +0000";
+lastChange = "2019-01-23 13:39:11 +0000";
 layers = (
 {
 components = (
@@ -6226,7 +6230,7 @@ unicode = 1E84;
 {
 color = 4;
 glyphname = Wgrave;
-lastChange = "2019-01-23 12:56:47 +0000";
+lastChange = "2019-01-23 13:39:11 +0000";
 layers = (
 {
 components = (
@@ -6622,7 +6626,7 @@ unicode = 0059;
 {
 color = 4;
 glyphname = Yacute;
-lastChange = "2019-01-23 12:56:52 +0000";
+lastChange = "2019-01-23 13:39:12 +0000";
 layers = (
 {
 components = (
@@ -6667,7 +6671,7 @@ unicode = 00DD;
 {
 color = 4;
 glyphname = Ycircumflex;
-lastChange = "2019-01-23 12:56:55 +0000";
+lastChange = "2019-01-23 13:39:12 +0000";
 layers = (
 {
 components = (
@@ -6712,7 +6716,7 @@ unicode = 0176;
 {
 color = 4;
 glyphname = Ydieresis;
-lastChange = "2019-01-23 12:56:58 +0000";
+lastChange = "2019-01-23 13:39:12 +0000";
 layers = (
 {
 components = (
@@ -6757,7 +6761,7 @@ unicode = 0178;
 {
 color = 4;
 glyphname = Ygrave;
-lastChange = "2019-01-23 12:57:01 +0000";
+lastChange = "2019-01-23 13:39:12 +0000";
 layers = (
 {
 components = (
@@ -7636,7 +7640,7 @@ unicode = 0061;
 {
 color = 4;
 glyphname = aacute;
-lastChange = "2019-01-23 12:57:07 +0000";
+lastChange = "2019-01-23 13:39:13 +0000";
 layers = (
 {
 components = (
@@ -7681,7 +7685,7 @@ unicode = 00E1;
 {
 color = 4;
 glyphname = acircumflex;
-lastChange = "2019-01-23 12:57:11 +0000";
+lastChange = "2019-01-23 13:39:13 +0000";
 layers = (
 {
 components = (
@@ -7726,7 +7730,7 @@ unicode = 00E2;
 {
 color = 4;
 glyphname = adieresis;
-lastChange = "2019-01-23 12:57:14 +0000";
+lastChange = "2019-01-23 13:39:14 +0000";
 layers = (
 {
 components = (
@@ -7771,7 +7775,7 @@ unicode = 00E4;
 {
 color = 4;
 glyphname = agrave;
-lastChange = "2019-01-23 12:57:17 +0000";
+lastChange = "2019-01-23 13:39:14 +0000";
 layers = (
 {
 components = (
@@ -7816,7 +7820,7 @@ unicode = 00E0;
 {
 color = 4;
 glyphname = aring;
-lastChange = "2019-01-23 12:57:17 +0000";
+lastChange = "2019-01-23 13:39:46 +0000";
 layers = (
 {
 components = (
@@ -7825,6 +7829,7 @@ name = a;
 },
 {
 name = ringcomb;
+transform = "{1, 0, 0, 1, 360, 0}";
 }
 );
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
@@ -7837,6 +7842,7 @@ name = a;
 },
 {
 name = ringcomb;
+transform = "{1, 0, 0, 1, 360, 0}";
 }
 );
 layerId = "89EE149F-7564-47C9-BE54-DE0A35C75344";
@@ -7849,6 +7855,7 @@ name = a;
 },
 {
 name = ringcomb;
+transform = "{1, 0, 0, 1, 360, 0}";
 }
 );
 layerId = "BA964981-AC0A-4481-A535-297F9E9B05B4";
@@ -7860,7 +7867,7 @@ unicode = 00E5;
 {
 color = 4;
 glyphname = atilde;
-lastChange = "2019-01-23 12:57:20 +0000";
+lastChange = "2019-01-23 13:39:47 +0000";
 layers = (
 {
 components = (
@@ -8486,7 +8493,7 @@ unicode = 0063;
 {
 color = 4;
 glyphname = ccedilla;
-lastChange = "2019-01-23 13:04:13 +0000";
+lastChange = "2019-01-23 13:39:48 +0000";
 layers = (
 {
 components = (
@@ -9073,7 +9080,7 @@ unicode = 0065;
 {
 color = 4;
 glyphname = eacute;
-lastChange = "2019-01-23 12:57:39 +0000";
+lastChange = "2019-01-23 13:39:49 +0000";
 layers = (
 {
 components = (
@@ -9133,7 +9140,7 @@ unicode = 00E9;
 {
 color = 4;
 glyphname = ecircumflex;
-lastChange = "2019-01-23 12:57:42 +0000";
+lastChange = "2019-01-23 13:39:52 +0000";
 layers = (
 {
 components = (
@@ -9178,7 +9185,7 @@ unicode = 00EA;
 {
 color = 4;
 glyphname = edieresis;
-lastChange = "2019-01-23 12:57:45 +0000";
+lastChange = "2019-01-23 13:39:52 +0000";
 layers = (
 {
 components = (
@@ -9223,7 +9230,7 @@ unicode = 00EB;
 {
 color = 4;
 glyphname = egrave;
-lastChange = "2019-01-23 12:57:48 +0000";
+lastChange = "2019-01-23 13:39:52 +0000";
 layers = (
 {
 components = (
@@ -10081,7 +10088,7 @@ unicode = 0131;
 {
 color = 4;
 glyphname = iacute;
-lastChange = "2019-01-23 12:57:54 +0000";
+lastChange = "2019-01-23 13:39:53 +0000";
 layers = (
 {
 components = (
@@ -10126,7 +10133,7 @@ unicode = 00ED;
 {
 color = 4;
 glyphname = icircumflex;
-lastChange = "2019-01-23 12:57:57 +0000";
+lastChange = "2019-01-23 13:39:53 +0000";
 layers = (
 {
 components = (
@@ -10171,7 +10178,7 @@ unicode = 00EE;
 {
 color = 4;
 glyphname = idieresis;
-lastChange = "2019-01-23 12:57:59 +0000";
+lastChange = "2019-01-23 13:39:54 +0000";
 layers = (
 {
 components = (
@@ -10216,7 +10223,7 @@ unicode = 00EF;
 {
 color = 4;
 glyphname = igrave;
-lastChange = "2019-01-23 12:58:02 +0000";
+lastChange = "2019-01-23 13:39:54 +0000";
 layers = (
 {
 components = (
@@ -11212,7 +11219,7 @@ unicode = 006E;
 {
 color = 4;
 glyphname = ntilde;
-lastChange = "2019-01-23 12:58:05 +0000";
+lastChange = "2019-01-23 13:39:55 +0000";
 layers = (
 {
 components = (
@@ -11393,7 +11400,7 @@ unicode = 006F;
 {
 color = 4;
 glyphname = oacute;
-lastChange = "2019-01-23 12:58:08 +0000";
+lastChange = "2019-01-23 13:39:55 +0000";
 layers = (
 {
 components = (
@@ -11438,7 +11445,7 @@ unicode = 00F3;
 {
 color = 4;
 glyphname = ocircumflex;
-lastChange = "2019-01-23 12:58:11 +0000";
+lastChange = "2019-01-23 13:39:56 +0000";
 layers = (
 {
 components = (
@@ -11483,7 +11490,7 @@ unicode = 00F4;
 {
 color = 4;
 glyphname = odieresis;
-lastChange = "2019-01-23 12:58:14 +0000";
+lastChange = "2019-01-23 13:39:56 +0000";
 layers = (
 {
 components = (
@@ -11528,7 +11535,7 @@ unicode = 00F6;
 {
 color = 4;
 glyphname = ograve;
-lastChange = "2019-01-23 12:58:17 +0000";
+lastChange = "2019-01-23 13:39:56 +0000";
 layers = (
 {
 components = (
@@ -11783,7 +11790,7 @@ unicode = 00F8;
 {
 color = 4;
 glyphname = otilde;
-lastChange = "2019-01-23 12:58:19 +0000";
+lastChange = "2019-01-23 13:39:56 +0000";
 layers = (
 {
 components = (
@@ -26753,9 +26760,9 @@ width = 860;
 unicode = 2013;
 },
 {
-color = 3;
+color = 5;
 glyphname = hyphen;
-lastChange = "2019-01-23 13:37:00 +0000";
+lastChange = "2019-01-23 13:38:20 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
