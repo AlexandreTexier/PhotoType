@@ -1,9 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-"\U00EA\U00E9\U00E8\U00E7\U00CB",
-TM/trademark
-);
 date = "2018-10-04 12:50:48 +0000";
 designer = "Alexandre Texier x Mael Sinic";
 familyName = "Phototype-D";
@@ -411,9 +407,8 @@ width = 1050;
 unicode = 00C3;
 },
 {
-color = 0;
 glyphname = AE;
-lastChange = "2018-11-28 15:27:59 +0000";
+lastChange = "2019-01-23 13:37:23 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
@@ -2751,9 +2746,8 @@ width = 1050;
 unicode = 00D5;
 },
 {
-color = 0;
 glyphname = OE;
-lastChange = "2018-11-28 15:27:59 +0000";
+lastChange = "2019-01-23 13:37:25 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
@@ -5089,9 +5083,8 @@ width = 1050;
 unicode = 00E3;
 },
 {
-color = 0;
 glyphname = ae;
-lastChange = "2018-12-05 10:25:57 +0000";
+lastChange = "2019-01-23 13:37:18 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
@@ -6459,9 +6452,8 @@ width = 1050;
 unicode = 00F5;
 },
 {
-color = 0;
 glyphname = oe;
-lastChange = "2018-12-05 10:26:15 +0000";
+lastChange = "2019-01-23 13:37:21 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";

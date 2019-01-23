@@ -318,8 +318,9 @@ width = 1070;
 unicode = 0041;
 },
 {
+color = 3;
 glyphname = B;
-lastChange = "2018-11-29 19:32:33 +0000";
+lastChange = "2019-01-23 13:36:53 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";

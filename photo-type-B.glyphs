@@ -3427,8 +3427,9 @@ width = 587;
 unicode = 0061;
 },
 {
+color = 1;
 glyphname = aring;
-lastChange = "2018-12-13 10:11:45 +0000";
+lastChange = "2019-01-23 13:36:34 +0000";
 layers = (
 {
 components = (

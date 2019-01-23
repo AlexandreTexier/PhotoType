@@ -1,8 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-/euro
-);
 customParameters = (
 {
 name = Axes;

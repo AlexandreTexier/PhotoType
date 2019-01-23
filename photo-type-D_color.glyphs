@@ -1751,8 +1751,9 @@ width = 1050;
 unicode = 0050;
 },
 {
+color = 3;
 glyphname = Q;
-lastChange = "2018-12-05 09:31:52 +0000";
+lastChange = "2019-01-23 13:36:47 +0000";
 layers = (
 {
 layerId = "ADA7F6FF-5955-4EF3-8FA7-BADC10F8EE4C";
