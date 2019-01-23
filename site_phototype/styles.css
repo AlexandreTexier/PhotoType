@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Phototype-A";
+  src: url("fonts/Phototype-A.otf") format("opentype"),
+    url("fonts/Phototype-A.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Phototype-B";
+  src: url("fonts/Phototype-B.otf") format("opentype"),
+    url("fonts/Phototype-B.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Phototype-C";
+  src: url("fonts/Phototype-C.otf") format("opentype"),
+    url("fonts/Phototype-C.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Phototype-D";
+  src: url("fonts/Phototype-D.otf") format("opentype"),
+    url("fonts/Phototype-D.woff") format("woff");
+}
+
+/* ======== INIT ======== */
+*, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* ======== LANDING PAGE ======== */
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: salmon;
+  position: relative;
+}
+/* #landing-page.hiddenn{
+  display: none;
+} */
+
+#title {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#menu-bar {
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: aqua;
+  transition: 1500ms;
+}
+#menu-bar.active{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: 1500ms;
+}
+/* ======== LANDING PAGE : fonts ======== */
+.landing-page-fonts {
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 120px;
+}
+
+#type-A_header {
+  font-family: "Phototype-A";
+}
+
+#type-B_header {
+  font-family: "Phototype-B";
+}
+
+#type-C_header {
+  font-family: "Phototype-C";
+}
+
+#type-D_header {
+  font-family: "Phototype-D";
+}
+
+section:not(:first-of-type){
+  padding-top: 50px;
+}
+/* ======== SECTION : intro ======== */
+#intro{
+  width: 100vw;
+  height: 120vh;
+  background-color: grey;
+}
