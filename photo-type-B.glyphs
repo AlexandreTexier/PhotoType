@@ -1,12 +1,5 @@
 {
 .appVersion = "1056";
-DisplayStrings = (
-"/battery  Low battery\012  High drum",
-/passedlabel,
-/bullet,
-/delta,
-/alpha
-);
 date = "2018-10-03 14:49:26 +0000";
 familyName = "New Font";
 featurePrefixes = (
@@ -10808,8 +10801,9 @@ width = 600;
 unicode = 03C6;
 },
 {
+color = 1;
 glyphname = zero;
-lastChange = "2018-12-13 16:11:00 +0000";
+lastChange = "2019-01-23 13:22:55 +0000";
 layers = (
 {
 layerId = "E2083702-67E7-471D-AE09-DB685EF5235E";
