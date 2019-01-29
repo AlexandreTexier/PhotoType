@@ -40,6 +40,13 @@ name = frac;
 );
 fontMaster = (
 {
+alignmentZones = (
+"{500, 15}",
+"{500, 15}",
+"{500, 15}",
+"{0, -15}",
+"{-200, -16}"
+);
 ascender = 500;
 capHeight = 500;
 descender = -200;
@@ -92,6 +99,13 @@ width = Extended;
 xHeight = 500;
 },
 {
+alignmentZones = (
+"{500, 15}",
+"{500, 15}",
+"{500, 15}",
+"{0, -15}",
+"{-200, -16}"
+);
 ascender = 500;
 capHeight = 500;
 descender = -200;
@@ -147,6 +161,13 @@ width = Extended;
 xHeight = 500;
 },
 {
+alignmentZones = (
+"{500, 16}",
+"{500, 16}",
+"{500, 16}",
+"{0, -16}",
+"{-200, -16}"
+);
 ascender = 500;
 capHeight = 500;
 descender = -200;
