@@ -36,6 +36,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html {
@@ -44,11 +45,14 @@ html {
   /* cursor: url("img/cursor.ico") 32 32, auto; */
 }
 
-section {
+/* section {
   box-sizing: border-box;
-}
+  height: 100%;
+  width: 100vw;
+  background-color: grey;
+} */
 
-/* ======== NAVIGATION ======== */
+/* ======== NAVIGATION MENU ======== */
 #menu {
   position: absolute;
   box-sizing: border-box;
@@ -57,6 +61,7 @@ section {
   bottom: 0;
   left: 0;
   background-color: lightgrey;
+  z-index: 5;
 }
 
 #menu.top {
@@ -82,42 +87,8 @@ section {
 
 /* ======== SITE ======== */
 
-/* horizontal navigation & section structure */
 
-/* Specimen container */
-#specimen{
-  box-sizing: border-box;
-  /* display: flex; */
-  /* width: 100vw; */
-  /* overflow-x: scroll; */
-  /* flex-direction: row; */
-  background-color: orange;
-}
-.content{
-  width:100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-}
-.nav-bar {
-  box-sizing: border-box;
-  width: 50px;
-  /* height: 100%; */
-  /* float: left; */
-  background-color: yellow;
-  cursor: pointer;
-  align-items: stretch;
-}
-.content-main{
-  height: 1500px;
-  flex-grow: 2;
-  box-sizing: border-box;
-  padding: 40px;
-  background-color: lime;
-}
-
-/* 01 — Landing */
+/* 00 — LANDING */
 #landing {
   /* box-sizing: border-box; */
   width: 100vw;
@@ -149,34 +120,80 @@ section {
   font-family: 'Phototype-C';
   transition: 100ms;
   font-weight: var(--variable-weight);
+  font-size:180pt;
 }
 
 #type-D-landing {
   font-family: 'Phototype-D';
   transition: 100ms;
   font-weight: var(--variable-weight);
+  font-size:60pt;
 }
 
-/* 02 — Presentation */
-#presentation {
-  /* box-sizing: border-box; */
-  width: 100vw;
-  height: 2000px;
-  float: left;
-  /* background-color: grey; */
+  /* 01 - SPECIMEN */
+
+/* Specimen container */
+#specimen{
+  position: absolute;
+  top:100vh;
+    box-sizing: border-box;
+    display: flex;
+    width: 500vw;
+    height: 1300px;
+    background-color: orange;
+    /* padding-right: 100vw; */
+    overflow-x: hidden;
+    transition: 1000ms;
+    z-index: 2;
 }
-#type-A {
-  /* box-sizing: border-box; */
-  width: 100vw;
-  height: 2000px;
-  float: left;
-  display: inline-block;
-  /* background-color: grey; */
+#specimen.posA{
+  left:-0vw;
+  transition: 1000ms;
 }
-#type-B {
-  /* box-sizing: border-box; */
+#specimen.posB{
+  left:-100vw;
+  transition: 1000ms;
+}
+#specimen.posPres{
+  left:-200vw;
+  transition: 1000ms;
+}
+#specimen.posC{
+  left:-300vw;
+  transition: 1000ms;
+}
+#specimen.posD{
+  left:-400vw;
+  transition: 1000ms;
+}
+section {
+  box-sizing: border-box;
+  height: 100%;
   width: 100vw;
-  height: 2000px;
-display: inline-block;
- /* background-color: grey; */
+  background-color: grey;
+}
+.content{
+  box-sizing: border-box;
+  padding-top: 50px;
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+}
+.nav-bar {
+  /* box-sizing: border-box; */
+  width: 50px;
+  height: 100%;
+  /* float: left; */
+  background-color: yellow;
+  cursor: pointer;
+  /* align-items: stretch; */
+}
+.content-main{
+  height: 100%;
+  flex-grow: 2;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: lime;
 }
