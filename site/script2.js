@@ -1,5 +1,6 @@
 // ===== GLOBAL VARIABLES ====== //
 var variableWeight;
+var position = "type-A";
 
 
 // ===== DOM READY ====== //
@@ -7,39 +8,62 @@ $(document).ready(function() {
 
   console.log("ready");
 
-  //menu fixation
-  var windowHeight = $(window).height() - 50;
-  $(window).on("scroll", function () {
-        if ( $(this).scrollTop() > windowHeight ) {
-            $("#menu").addClass("top");
-        }
-        else{
-          $("#menu").removeClass("top");
-        }
-      });
-
-  // variable font control
-  $("#variable-font-slider").on("input change", function() {
-
-    variableWeight = $("#variable-font-slider").val();
-    $("#variable-font-slider").attr("value", variableWeight);
-    $(":root").attr("style", "--variable-weight:" + variableWeight + "");
-    console.log(variableWeight);
-
-  });
-
   //next-page
-  $(".next-page").click(function(){
+  $(".next-page").click(function() {
     console.log("click on next-page");
-    var parent = $(this).parent().attr('id');
-    console.log("wanting to go after "+parent);
+
+    switch (position) {
+      case "type-A":
+        // code block
+        console.log("next, from A to B");
+        $("#specimen").removeClass("posA");
+        $("#specimen").addClass("posB");
+        position = "type-B";
+        break;
+      case "type-B":
+        // code block
+        console.log("next, from B to C");
+        $("#specimen").removeClass("posB");
+        $("#specimen").addClass("posC");
+        position = "type-C";
+        break;
+      case "type-C":
+        // code block
+        console.log("already at max");
+        break;
+      default:
+        // code block
+    }
+
   });
 
-  //previous-page
-  $(".previous-page").click(function(){
+  // previous-page
+  $(".previous-page").click(function() {
     console.log("click on previous-page");
-    var parent = $(this).parent().attr('id');
-    console.log("wanting to go before "+parent);
+
+    switch (position) {
+      case "type-C":
+        // code block
+        console.log("previous, from C to B");
+        $("#specimen").removeClass("posC");
+        $("#specimen").addClass("posB");
+        position = "type-B";
+        break;
+      case "type-B":
+        // code block
+        console.log("previous, from B to A");
+        $("#specimen").removeClass("posB");
+        $("#specimen").addClass("posA");
+        position = "type-A";
+        break;
+      case "type-A":
+        // code block
+        console.log("already at min");
+        break;
+      default:
+        // code block
+    }
+
   });
 
 });
